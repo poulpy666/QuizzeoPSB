@@ -34,7 +34,7 @@ if(isset($_POST["button"])){
             header("location: user.php");
         }
     } else {
-        echo "Erreur de connexion";
+        echo "<p id='erreur'>Erreur de Connexion<p>";
     }
 }
 ?>
